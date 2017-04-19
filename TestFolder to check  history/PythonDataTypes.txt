@@ -1,0 +1,59 @@
+Python has 5 standard data types −
+1.Numbers
+2.String              
+3.List          
+4.Tuple               
+5.Sets
+6.Dictionary
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.String     
+string1 ="PYTHON TUTORIAL"
+Character	P	Y	T	H	O	N	 	T	U	T	O	R	I	A	L
+Index (from left)	 0	1	2	 3	4	5	6 	7	8	9	10	11	 12	13	14
+Index (from right)	-15	-14	-13	-12	-11	-10	-9	-8	-7	-6	-5	-4	-3	-2	-1 
+
+'in' operator :
+is used to check whether a character or a substring is present in a string or not. The expression returns a Boolean value 
+
+Slice operator:
+Here two indices are used separated by a colon (:). A slice 3:7 means indices characters of 3rd, 4th, 5th and 6th positions. The second integer index i.e. 7 is not included. 
+
+3.List  
+   list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+*Lists are Mutable 
+
+4.Tuple
+   tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+*Tuples are Immutable
+
+5.Sets
+  *A = {1, 2, 3, 4, 5}  , B = {4, 5, 6, 7, 8}
+  *unique elements
+  *support mathematical operations like union, intersection, difference, and symmetric difference
+  
+	Set Operations:
+	A.union(B) or print(A | B)  
+	# Output: {1, 2, 3, 4, 5, 6, 7, 8}
+	A.intersection(B) or print(A & B) 
+	# Output: {4, 5}
+	A.difference(B) or print(A - B) 
+	# Output: {1, 2, 3}
+	A.symmetric_difference(B)   or  print(A ^ B) 
+	#Output: {1, 2, 3, 6, 7, 8}
+	
+	ord('a') gives ASCII code of that character
+	
+6.Dictionary
+d. clear
+d. copy → dictionary
+d. setdefault ( key , [ default ]) → object
+d. setdefault ( key , [ default ]) → object
+d.update ( new , [ default ]) → object
+d. pop ( key , [ value ]) → object
+d. get ( key , [ default ]) → object
+d. has_key ( key ) → boolean
+d. items → sequence
+d. keys → sequence
+d. values → sequence
+

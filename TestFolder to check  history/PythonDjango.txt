@@ -1,0 +1,17 @@
+Django 
+
+M-Model   (DataBase)
+V-View       (Business logic)
+T-Template(Presentation layer)
+
+To install python :
+# pip install python
+
+Creating a Project
+#django-admin startproject helloProject
+
+Creating a Project
+#django-admin startapp helloApp
+
+
+#CTRL + C-To stop the running server
